@@ -1,0 +1,7 @@
+tmp.gif
+task_3_solved.ipynb
+task_2_solved.ipynb
+
+*ipynb_checkpoints
+*__pycache__*
+cache/*

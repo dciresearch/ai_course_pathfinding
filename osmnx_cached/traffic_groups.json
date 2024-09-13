@@ -1,0 +1,27 @@
+{
+ "late_entertainment": [
+	["amenity","bar pub restaurant biergarten"],
+	["amenity","casino cinema gambling nightclub theatre"],
+	["leisure","stadium sports_centre"]
+ ],
+ "food_and_chill" : [
+	["amenity","food_court restaurant"],
+	["shop","mall supermarket wholesale department_store"]
+ ],
+ "early_activities":[
+	["amenity","college school training university kindergarten"],
+	["building","religious cathedral chapel church monastery mosque synagogue shrine temple"],
+	["building","industrial office"]
+ ],
+ "services":[
+	["amenity","car_rental boat_rental ferry_terminal fuel taxi parking bus_station"],
+	["amenity","bank payment_centre"]
+ ],
+ "health":[
+	["amenity","clinic doctors hospital"]
+ ],
+ "all_day_activities": [
+	["amenity","conference_centre events_venue music_venue stage"],
+	["leisure","beach_resort amusement_arcade dog_park escape_game fitness_centre marina park pitch water_park"]
+ ]
+}

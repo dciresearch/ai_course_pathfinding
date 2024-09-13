@@ -1,0 +1,51 @@
+{
+    "late_entertainment": {
+        "impact": 0.1,
+        "adjacent": {
+            "food_and_chill": 0.5,
+            "late_entertainment": 0.5,
+            "health": 0.1
+        }
+    },
+    "food_and_chill": {
+        "impact": 0.025,
+        "adjacent": {
+            "late_entertainment": 0.25,
+            "all_day_activities": 0.2,
+            "early_activities": 0.5,
+            "services": 0.1
+        }
+    },
+    "early_activities": {
+        "impact": 0.2,
+        "adjacent": {
+            "food_and_chill": 0.25,
+            "all_day_activities": 0.2,
+            "early_activities": 0.5,
+            "services": 0.1
+        }
+    },
+    "services": {
+        "impact": 0.01,
+        "adjacent": {
+            "late_entertainment": 0.25,
+            "early_activities": 0.25,
+            "food_and_chill": 0.25
+        }
+    },
+    "health": {
+        "impact": 0.005,
+        "adjacent": {
+            "food_and_chill": 0.25,
+            "early_activities": 0.5
+        }
+    },
+    "all_day_activities": {
+        "impact": 0.025,
+        "adjacent": {
+            "food_and_chill": 0.25,
+            "early_activities": 0.25,
+            "services": 0.1
+        }
+    }
+}
